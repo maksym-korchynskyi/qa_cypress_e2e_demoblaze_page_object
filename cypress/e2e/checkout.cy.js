@@ -23,7 +23,7 @@ describe('Checkout', () => {
     homePage.clickOnCategory(categoryName);
     homePage.clickOnProduct(productName);
 
-    productPage.addToCard();
+    productPage.addToCart();
     productPage.assertAllert('Product added');
 
     homePage.clickOnLink('Cart');
